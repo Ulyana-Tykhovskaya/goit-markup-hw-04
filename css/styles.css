@@ -323,22 +323,27 @@ margin-bottom: 8px;
 }
 .portfolio-cover-wrap {
     position: relative;
+    overflow: hidden;
 }
-.portfolio-cover {
+.overlay {
     position: absolute;
-    top: 0;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-background: #4d5ae5;
-height: 300px;
-padding-left: 32px;
-padding-right: 32px;
-display: flex;
-align-items: center;
-transform: translateY(100%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4d5ae5;
+  color: #ffffff;
+  padding: 10px;
+  line-height: 1.2;
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
 }
+.portfolio-cover-wrap:hover .overlay,
+.portfolio-cover-wrap .overlay {
+  transform: translateY(0%);
+}
+
 .footer {
 background-color: #2e2f42;
 padding: 100px 0;
