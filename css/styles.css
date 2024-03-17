@@ -282,9 +282,7 @@ margin-top: 32px;
     background-color: #fff;
     width: calc((100% - 48px) / 3);
 }
-.portfolio-fon:hover .portfolio-cover {
-    transform: translateY();
-}
+
 .portfolio-title {
 font-size: 36px;
 line-height: 1.11;
@@ -336,11 +334,15 @@ margin-bottom: 8px;
   padding: 10px;
   line-height: 1.2;
   overflow: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 164px;
+  padding-top: 40px;
   transform: translateY(100%);
   transition: transform 250ms linear;
 }
-.portfolio-cover-wrap:hover .overlay,
-.portfolio-cover-wrap .overlay {
+.portfolio-fon:hover .overlay,
+.portfolio-fon:focus .overlay {
   transform: translateY(0%);
 }
 
@@ -370,4 +372,31 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 width: 264px;
+}
+.subtitle-footer {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+
+}
+.footer-icon {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
+}
+.address-icon {
+    fill: #f4f4fd;
+}
+.wrap-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
