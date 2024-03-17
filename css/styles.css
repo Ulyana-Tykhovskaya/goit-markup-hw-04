@@ -373,13 +373,18 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 width: 264px;
 }
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
 .subtitle-footer {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-
+padding-left: 540px;
+padding-right: 804px;
 }
 .footer-icon {
     display: flex;
