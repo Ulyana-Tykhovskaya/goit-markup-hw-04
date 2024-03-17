@@ -30,6 +30,7 @@ margin: 0;
 }
 .header {
     border-bottom: 1px solid  #E7E9FC;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
     display: flex;
@@ -93,17 +94,18 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .address-list {
     display: flex;
     gap: 40px;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ========main======= */
 .hero {
@@ -186,6 +188,10 @@ border-radius: 4px;
 width: 264px;
 height: 112px;
 background: #f4f4fd;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 8px;
 }
 .strategy-subtitle {
 font-weight: 500;
@@ -241,7 +247,7 @@ color: #434455;
    background-color: #ffffff;
    width: calc((100% - 24px * 3) / 4);
    border-radius: 0px 0px 4px 4px;
-   
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .teacher {
     padding: 32px 0;
@@ -270,7 +276,7 @@ margin-top: 32px;
     justify-content: center;
 }
 .creat-icon:hover {
-    background-color: aquamarine;
+    background-color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio {
