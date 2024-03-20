@@ -424,14 +424,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 padding-bottom: 16px;
-margin-bottom: 16px; 
 }
 .item-footer {
 
 }
 .footer-paragraf {
     margin-right: 120px;
-    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-footer {
     display: flex;
